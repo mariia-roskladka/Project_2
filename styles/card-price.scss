@@ -1,0 +1,121 @@
+.price-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #334247;
+    max-width: 380px;
+    min-height: 770px;
+    overflow: hidden;
+    margin-left: 18px;
+    position: relative;
+    &__order-button {
+        text-transform: uppercase;
+        text-align: center;
+        min-width: 154px;
+        min-height: 40px;
+        border-radius: 20px;
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        border: none;
+    }
+    &:nth-child(1) {
+        margin-left: 0;
+    }
+    &__title {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        margin: 33px auto;
+    }
+    &__price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 67px;
+        min-height: 105px;
+        margin-bottom: 40px;
+    }
+    &__description {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        padding: 0 26px;
+        margin-bottom: 40px;
+    }
+    &__options-list {
+        margin-bottom: 39px;
+    }
+    &__options_item {
+        display: flex;
+        padding: 16px 21px;
+        &::nth-child(2n-1) {
+            background-color: #2a3438;
+        }
+        &>img {
+            margin-right: 22px;
+        }
+    }
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+}
+
+.button__wraper {
+    display: flex;
+    justify-content: center;
+}
+
+.green {
+    background-color: #5bb189;
+}
+
+.blue {
+    background-color: #3a6ba5;
+}
+
+.orange {
+    background-color: #ec632a;
+}
+
+.badge {
+    background-color: #dc3f45;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    padding-top: 5px;
+    top: 30px;
+    right: -30px;
+    transform: rotate(45deg);
+    height: 25px;
+    width: 147px;
+}
+
+i {
+    width: 20px;
+    color: transparent;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.icon-green {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+
+.icon-blue {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+
+.icon-orange {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
